@@ -11,4 +11,4 @@ Star Wars Weight Calculator was developed by [Layla Grace](www.linkedin.com/in/t
 > 3. Then run `npm start`.
 > 4. Now you can open the app at `localhost:1235` within your browser.
 
-Note: Once the app has been compiled, you can run the test suite by using `npm test`.
+Note: You can run the test suite by using `npm test`.
