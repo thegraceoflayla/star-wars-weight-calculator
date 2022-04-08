@@ -1,5 +1,4 @@
 import React from 'react';
-import { render, screen, act, waitFor, regeneratorRuntime, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import App from '../App.jsx';
 
