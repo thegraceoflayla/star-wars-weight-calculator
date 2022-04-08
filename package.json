@@ -1,0 +1,36 @@
+{
+  "name": "star-wars-weight-calculator",
+  "version": "1.0.0",
+  "description": "find the lifespan of different species on different planets",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "dev-build": "webpack --watch",
+    "dev-serve": "nodemon index.js",
+    "start": "webpack && node index.js"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "author": "thegraceoflayla",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.0",
+    "babel-loader": "^8.2.4",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "jest-dom": "^4.0.0",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-test-renderer": "^18.0.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders once props are recieved 1`] = `
+<div
+  className="col align-center m-4"
+  data-testid="selector"
+  id="selector"
+>
+  <div
+    className="row row-1 justify-content-center m-2"
+    id="people"
+  >
+    <button
+      className="btn btn-secondary btn-lg m-1"
+      data-testid="person"
+      id={0}
+      onClick={[Function]}
+    >
+      Luke Skywalker
+    </button>
+    <button
+      className="btn btn-outline-secondary btn-lg m-1"
+      data-testid="person"
+      id={1}
+      onClick={[Function]}
+    >
+      C-3PO
+    </button>
+    <button
+      className="btn btn-outline-secondary btn-lg m-1"
+      data-testid="person"
+      id={2}
+      onClick={[Function]}
+    >
+      R2-D2
+    </button>
+    <button
+      className="btn btn-outline-secondary btn-lg m-1"
+      data-testid="person"
+      id={3}
+      onClick={[Function]}
+    >
+      Darth Vader
+    </button>
+    <button
+      className="btn btn-outline-secondary btn-lg m-1"
+      data-testid="person"
+      id={4}
+      onClick={[Function]}
+    >
+      Leia Organa
+    </button>
+  </div>
+  <div
+    className="row row-1 justify-content-center"
+    id="scroll-buttons"
+  >
+    <button
+      className="btn btn-primary m-2 col-1"
+      id="left-button"
+      onClick={[Function]}
+      value="left"
+    >
+      <i
+        className="fa-solid fa-chevron-left"
+      />
+    </button>
+    <button
+      className="btn btn-primary m-2 col-1"
+      id="right-button"
+      onClick={[Function]}
+      value="right"
+    >
+      <i
+        className="fa-solid fa-chevron-right"
+      />
+    </button>
+  </div>
+</div>
+`;
